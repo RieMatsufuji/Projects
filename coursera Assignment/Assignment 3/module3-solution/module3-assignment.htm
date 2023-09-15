@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Food, LLC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style-Assignment3.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header d-flex flex-lg-row flex-sm-column">
+                    <a href="Lecture29-3.html" class="d-none d-md-block">
+                        <div id="logo-img"></div>
+                    </a>
+                    <div class="navbar-brand float-sm-start">
+                        <a href="Lecture29-3.html" class="text-decoration-none">
+                            <h1>David Chu's China Bistro</h1>
+                        </a>
+                        <p>
+                            <i class="bi bi-star-fill"></i>
+                            <span>Kosher Certified</span>
+                        </p>
+                    </div>
+                    <nav class="navbar navbar-expand-lg">
+                        <div class="container-fluid">
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                                <ul id="nav-list" class="navbar-nav navbar-center me-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="menu-category.html">
+                                            <i class="bi bi-cup-hot-fill" style="color: #951c49;"></i><br
+                                                class="d-none d-md-block">Menu</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><i class="bi bi-exclamation-circle-fill"
+                                                style="color: #951c49;"></i><br class="d-none d-md-block">About</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><i class="bi bi-trophy-fill"
+                                                style="color: #951c49;"></i><br class="d-none d-md-block">Awards</a>
+                                    </li>
+                                    <li id="phone" class="d-none d-lg-block">
+                                        <a href="tel:410-602-5008" class="text-decoration-none">
+                                            <span>410-602-5008</span></a>
+                                        <div>* We Deliver</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="call-btn" class="d-lg-none">
+        <a class="btn" href="tel:410-602-5008">
+            <i class="bi bi-headset"></i>
+            410-602-5008
+        </a>
+    </div>
+    <div id="xs-deliver" class="text-center d-lg-none">* We Deliver
+    </div>
+
+    <div id="main-content" class="container">
+        <div class="jumbotron">
+            <!-- From LG size hide -->
+            <img src="images/jumbotron_768.jpg" class="img-fluid d-lg-none">
+        </div>
+    </div>
+        <div id="title" class="container">
+            <div id="home-tiles" class="row row-30">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="....">
+                        <div id="menu-title"><span>menu</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <a href="....">
+                        <div id="special-title"><span>special</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12">
+                    <a href="https://maps.app.goo.gl/9SEYVGh5CR8xqRfr5" target="_blank">
+                        <div id="map-title">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2469.480290801641!2d7.623664855010766!3d47.5485792156684!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4791b82cafc2b6ed%3A0x5a97d02f65eb5476!2z44K344Ol44O044Kh44Or44OE44O744OR44O844Kv!5e0!3m2!1sja!2sch!4v1694609755469!5m2!1sja!2sch" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            <span>map</span>
+                        </div>
+                    </a>
+                </div>
+            </div><!--endo of #home-title-->
+        </div><!--end of #main-content-->
+
+        <footer class="panel-footer">
+            <div class="container">
+                <div class="row">
+                    <section id="hours" class="col-md-4">
+                        <span>Hours:</span><br>
+                        Sun-Thurs: 11:15am - 10:00pm<br>
+                        Fri: 11:15am - 2:30pm<br>
+                        Saturday Closed
+                        <hr class="d-block d-md-none">
+                    </section>
+                    <section id="address" class="col-md-4">
+                        <span>Address:</span><br>
+                        7105 Reisterstown Road<br>
+                        Baltimore, MD 4052
+                        <p>*Delivery area within 3-4 miles, with minimum order of $20.</p>
+                        <hr class="d-block d-md-none">
+                    </section>
+                    <section id="testimonials" class="col-md-4">
+                        <p>The best chinies restaurant woiesd soiejosijse seoitoeist osieoieu!</p>
+                        <p>Amazing oasijoer woeir oi aoweit aoi aoietu oaeoiu aoieu!</p>
+                    </section>
+                </div>
+                <div class="text-center">&copy; Copyright David Chu's CHina Bistro 2023</div>
+            </div>
+        </footer>
+
+    <!-- bottom scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
